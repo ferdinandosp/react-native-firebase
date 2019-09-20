@@ -45,7 +45,7 @@ export default class Messaging extends ModuleBase {
     super(app, {
       events: NATIVE_EVENTS,
       moduleName: MODULE_NAME,
-      hasMultiAppSupport: false,
+      hasMultiAppSupport: true,
       hasCustomUrlSupport: false,
       namespace: NAMESPACE,
     });
